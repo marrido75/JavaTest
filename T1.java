@@ -3,6 +3,8 @@ public class T1 {
         T1.intSun(317, 180);
         double a = T1.intSun2(100, 200);
         System.out.println(a);
+
+        T2.print2(100, 200);
     }
 
     public static void intSun(int x, int y) {
@@ -14,4 +16,11 @@ public class T1 {
         return x + y;
     }
 
+}
+
+class T2 {
+    public static void print2(int a, int b) {
+        int c = a + b;
+        System.out.println(c);
+    }
 }
